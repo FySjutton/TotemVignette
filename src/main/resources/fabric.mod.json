@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "totemvignette",
+	"version": "${version}",
+	"name": "TotemVignette",
+	"description": "Shows a vignette warning if when you aren't holding a totem.",
+	"authors": [
+		"Fy17"
+	],
+	"contact": {
+		"sources": "https://github.com/FySjutton/TotemVignette",
+		"issues": "https://github.com/FySjutton/TotemVignette/issues"
+	},
+	"license": "Fy17 Project License",
+	"icon": "assets/totemvignette/mod_icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"avox.totemvignette.TotemVignette"
+		],
+		"modmenu": [
+			"avox.totemvignette.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"totemvignette.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.20",
+		"java": ">=17",
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": ">=3.0.2"
+	},
+	"recommends": {
+		"modmenu": ">=7.0.0-"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"totemvignette.discord": "https://discord.gg/V2BXH2q6Rq"
+			},
+			"update_checker": true
+		}
+	}
+}

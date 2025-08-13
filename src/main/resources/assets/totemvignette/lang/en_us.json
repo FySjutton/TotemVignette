@@ -1,0 +1,17 @@
+{
+  "totemvignette.discord": "Discord",
+  "totemvignette.category": "Totem Vignette",
+  "totemvignette.toggle_mod": "Toggle Mod",
+
+  "totemvignette.toggled": "TotemVignette Toggled",
+  "totemvignette.enabled": "Mod now enabled!",
+  "totemvignette.disabled": "Mod now disabled!",
+
+  "totemvignette.config.category.general": "General",
+
+  "totemvignette.config.option.enable_mod": "Enabled Mod",
+  "totemvignette.config.option.vignette_power": "Vignette Power",
+
+  "totemvignette.config.option.enable_mod.desc": "If you want to enable or disable the mod.",
+  "totemvignette.config.option.vignette_power.desc": "The intensity of which you want the vignette effect to be."
+}
