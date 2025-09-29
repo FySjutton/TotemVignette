@@ -9,6 +9,7 @@ import net.minecraft.client.toast.SystemToast;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.Text;
 
+import net.minecraft.util.Identifier;
 import org.lwjgl.glfw.GLFW;
 
 public class TotemVignette implements ModInitializer {
@@ -16,7 +17,7 @@ public class TotemVignette implements ModInitializer {
 			Text.translatable("totemvignette.toggle_mod").getString(),
 			InputUtil.Type.KEYSYM,
 			GLFW.GLFW_KEY_V,
-			Text.translatable("totemvignette.category").getString()
+			KeyBinding.Category.create(Identifier.of(Text.translatable("totemvignette.category").getString()))
 	));
 
 	@Override
