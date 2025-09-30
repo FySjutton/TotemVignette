@@ -22,6 +22,8 @@ public class TotemVignette implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ConfigSystem.CONFIG.load();
+
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
 			if (toggleMod.wasPressed()) {
 				boolean oldValue = ConfigSystem.CONFIG.instance().enableMod;
