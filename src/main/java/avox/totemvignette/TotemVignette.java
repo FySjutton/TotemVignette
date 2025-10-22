@@ -16,8 +16,8 @@ public class TotemVignette implements ModInitializer {
 	public static final KeyBinding toggleMod = KeyBindingHelper.registerKeyBinding(new KeyBinding(
 			Text.translatable("totemvignette.toggle_mod").getString(),
 			InputUtil.Type.KEYSYM,
-			GLFW.GLFW_KEY_V,
-			KeyBinding.Category.create(Identifier.of(Text.translatable("totemvignette.category").getString()))
+			GLFW.GLFW_KEY_Y,
+			KeyBinding.Category.create(Identifier.of("totemvignette", "category.totemvignette.totemvignette"))
 	));
 
 	@Override

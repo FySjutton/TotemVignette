@@ -1,1 +1,2 @@
-Fixed a bug with the configuration file not loading.
+Fixed a bug with the configuration menu not working
+Switched default toggle keybind from "V" to "Y"

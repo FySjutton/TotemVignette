@@ -31,10 +31,7 @@ dependencies {
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
     modImplementation "dev.isxander:yet-another-config-lib:${project.yacl_version}"
-
-    // Official 1.21.9 not released yet, using local version
-    //	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
-    modImplementation files("/libs/modmenu.jar")
+    modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
 processResources {
